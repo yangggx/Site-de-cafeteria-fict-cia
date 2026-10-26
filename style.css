@@ -1,0 +1,127 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Merriweather", serif;
+}
+
+body {
+    background-color: #FBF8F1;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+/*ESTILO DO HEADER*/
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    background-color:#D9996270;
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
+
+header .navegation ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+header .navegation a {
+    text-decoration: none;
+    color: #3b2a20;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+header .navegation nav a:hover {
+    transform: scale(1.05);
+}
+
+header .navegation nav a {
+    display: inline-block; 
+    transition: transform 0.3s ease; 
+}
+
+header .btn-contato button {
+    background-color: #3b281f;    
+    color: #fbf8f1;               
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 30px;        
+    cursor: pointer;
+    transition: all 0.3s ease;    
+}
+
+header .btn-contato button:hover {
+    background-color: #FBF8F1;    
+    color: #3b281f;               
+    transform: scale(1.05);      
+}
+
+/*ESTILIZAÇAO DO CONTEUDO*/
+
+.hero-site {
+    display: grid;
+    grid-template-columns: 1fr 1fr;      
+    min-height: calc(100vh - 80px);      
+}
+
+.txt-hero {
+    background-color: #ac8383;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;           
+    align-items: flex-start;
+    padding: 0 60px;
+}
+
+.img-hero {
+    background-image: url("imagens/cafe.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.txt-hero h1 span {
+    display: block;
+    font-style: italic;
+    color: #c4a47c;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-escuro { background-color: #3b2a20; color: #fff; }
+.btn-claro  { border: 1px solid #d8cfc4; color: #3b2a20; }
+
+.img-hero {
+    background-image: url("imagens/8e0e8c94-2d6a-4165-9ba1-1d25a839d440.png");
+    background-size: cover;
+    background-position: center;
+    height: 855px;
+    width: 800;
+}
